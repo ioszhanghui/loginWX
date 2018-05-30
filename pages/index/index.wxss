@@ -1,0 +1,97 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center; 
+}
+.LOGO{
+  width: 170rpx;
+  height: 170rpx;
+  margin-top: 50rpx;
+  align-self: center;
+}
+.phoneInput{
+margin-top: 146rpx;
+height: 100rpx;
+border: 2rpx solid #e8e8e8;
+width: 612rpx;
+border-radius: 100rpx;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.phoneLOGO{
+  width: 28rpx;
+  height: 40rpx;
+  margin-left: 40rpx;
+}
+.middleLine{
+
+  width: 2rpx;
+  height: 40rpx;
+  margin-left: 30rpx;
+  background:  #e8e8e8;
+}
+.phoneField{
+  margin-left: 28rpx;
+  height: 100rpx;
+  width: 430rpx;
+  font-size: 26rpx;
+  color: #323232;
+  line-height: 100rpx;
+}
+.codeInput{
+  margin-top: 30rpx;
+  height: 100rpx;
+  border: 2rpx solid #e8e8e8;
+  border-radius: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 612rpx;
+}
+.logInBtn{
+
+  width: 612rpx;
+  height: 100rpx;
+  background: #f8c112;
+  color: #323232;
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 100rpx;
+  margin-top: 80rpx;
+}
+.placeHolder{
+  color: #c7c7c9;
+}
+
+.rightLine{
+  width: 2rpx;
+  height: 40rpx;
+  background:  #e8e8e8;
+}
+.sendCode{
+
+  color: #999;
+  font-size: 24rpx;
+  line-height: 100rpx;
+  height: 100rpx;
+  margin-right: 32rpx;
+  margin-left: 24rpx;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  width: 120rpx;
+  text-align: center;
+}
+.codeField{
+
+  margin-left: 28rpx;
+  height: 100rpx;
+  font-size: 26rpx;
+  color: #323232;
+  line-height: 100rpx;
+  flex: 1;
+}

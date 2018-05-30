@@ -1,0 +1,8 @@
+<!-- <image src="../../images/1527669767.png" class="codeImage" bindlongtap="longTapAction" ></image> -->
+
+<view class='superView'>
+  <form class='form'>
+    <text class='text'>实际结果</text><input class='inputView'></input>
+    <view class='save'>保存</view>
+  </form>
+</view>

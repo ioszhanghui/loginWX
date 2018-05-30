@@ -1,0 +1,47 @@
+.codeImage{
+
+  width: 300px;
+  height: 300px;
+}
+page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #8c8c8c;
+  height: 100%;
+}
+.superView {
+  background: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.save{
+  background: green;
+  color: white;
+  font-size: 26rpx;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  /* align-self: center; */
+  margin: 30rpx auto;
+}
+.inputView{
+ width: 100px;
+ height: 60rpx;
+ border: 2rpx solid orange; 
+}
+ .form{
+  margin-top: 60rpx;
+} 
+.text{
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
